@@ -1,13 +1,63 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+/* http://192.168.234.33:3000 */
+
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Roboto', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.instaStyle{
+  border: 1px solid brown;
+}
+.instaStyle input{ 
+  width: auto;
+  padding: 3px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 1em; 
+}
+ 
+.instaStyle ul{
+  padding-left: 18px;
+}
+
+.profileStyle{
+  display: flex;
+  align-items: center;
+}
+
+.profileStyle img{
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  margin-right: 15px;
+  border: 1px solid black;
+
+
+}
+.followersStyle{
+  font-weight: bolder;
+}
+.followersStyle li {
+  list-style: none;
+  margin-top: 3px;
+  margin-bottom: 10px;
+}
+.but{
+  background: transparent;
+  
+  float: right;
+  margin-right: 10px;
+}
+
+.followersStyle img{
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin-right: 15px;
 }
